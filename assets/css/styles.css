@@ -45,6 +45,11 @@ span {
     line-height: 1.16;
 }
 
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
 .desc {
     font-weight: 400;
     font-size: 1.8rem;
@@ -130,7 +135,7 @@ nowrap {
 /* hero */
 
 .hero {
-    padding-top: 5rem;
+    padding: 5rem 0 7.9rem;
 }
 
 .hero .body {
@@ -282,4 +287,67 @@ nowrap {
 
 .hero .content .card-3 img:nth-child(1) {
     margin-left: 0;
+}
+
+/* features */
+
+.features .text-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    width: 59.1rem;
+}
+
+.features .text-2 .span-features {
+    letter-spacing: 0.55rem;
+}
+
+.features .text-2 .desc {
+    line-height: 2.7rem;
+}
+
+.features .text-2 .desc::first-line {
+    line-height: 1;
+}
+
+.features .list-item {
+    margin-top: 8rem;
+    display: flex;
+}
+
+.features .list-item .item:first-child {
+    width: 32%;
+}
+
+.features .list-item .item:nth-child(2) {
+    width: 37%;
+}
+
+.features .list-item .item:last-child {
+    width: 31%;
+}
+
+.features .list-item .title {
+    margin: 2.6rem 0 1.6rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0d1111;
+}
+
+.features .list-item .desc {
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9da6a5;
+}
+
+.features .list-item .desc:first-child {
+    width: 16.8rem;
+}
+
+.features .list-item .desc:nth-child(2) {
+    width: 22.3rem;
+}
+
+.features .list-item .desc:last-child {
+    width: 22.4rem;
 }
